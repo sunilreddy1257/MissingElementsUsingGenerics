@@ -2,7 +2,7 @@ import UIKit
 
 var greeting = "Hello, playground"
 
-func solve<T: Comparable>(array1: [T], array2: [T]) -> [T] {
+func solve<T: Comparable>(_ array1: [T], _ array2: [T]) -> [T] {
  
     var missingValues: [T] = []
  
@@ -41,4 +41,4 @@ let array2 = [9, 11, 9, 13, 9]*/
 /*let array1 = ["yes", "yes", "no", "never"]
 let array2 = ["yes", "no", "yes", "sometimes"]*/
 
-print(solve(array1: array1, array2: array2))
+print(solve(array1, array2))
